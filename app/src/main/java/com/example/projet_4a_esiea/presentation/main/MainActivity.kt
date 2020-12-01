@@ -1,8 +1,9 @@
-package com.example.projet_4a_esiea
+package com.example.projet_4a_esiea.presentation.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.Observer
+import com.example.projet_4a_esiea.R
 import kotlinx.android.synthetic.main.activity_main.*
 import org.koin.android.ext.android.inject
 
@@ -17,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
 
         main_button.setOnClickListener{
-            mainViewModel.onClickedIncrement()
+            mainViewModel.onClickedIncrement("")
         }
 
         mainViewModel.counter.observe(this, Observer {
