@@ -1,8 +1,13 @@
 package com.example.projet_4a_esiea.presentation.main
 
+import android.content.Intent
+import android.os.Bundle
+import android.widget.Button
+import androidx.core.content.ContextCompat.startActivity
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.example.projet_4a_esiea.R
 import com.example.projet_4a_esiea.domain.usecase.CreateUserUseCase
 import com.example.projet_4a_esiea.domain.usecase.GetUserUseCase
 import kotlinx.coroutines.Dispatchers
