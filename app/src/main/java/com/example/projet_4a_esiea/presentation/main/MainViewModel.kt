@@ -21,9 +21,9 @@ class MainViewModel(
 
     fun onClickedLogin(emailUser: String, password: String) {
         viewModelScope.launch(Dispatchers.IO) {
-            val user = getUserUseCase.invoke(emailUser)
+            val user = getUserUseCase.invoke(emailUser,password)
             val loginStatusSealed = if ( user != null){
-                LoginSuccess(user.email)
+                LoginSuccess(user.email, user.password)
             }else{
                 LoginError
             }
@@ -40,9 +40,9 @@ class MainViewModel(
         confirm_password: String
     ) {
        viewModelScope.launch(Dispatchers.IO) {
-            createUserUseCase.invoke(User(email))
-            val user1 = getUserUseCase.invoke(email)
+            createUserUseCase.invoke(User(email,password))
             Log.d("DEBUG", email);
+            Log.d("DEBUG", password);
 
         }
     }
