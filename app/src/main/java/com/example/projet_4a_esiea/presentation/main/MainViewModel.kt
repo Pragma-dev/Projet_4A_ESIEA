@@ -1,13 +1,11 @@
 package com.example.projet_4a_esiea.presentation.main
 
-import android.content.Intent
-import android.os.Bundle
-import android.widget.Button
-import androidx.core.content.ContextCompat.startActivity
+import android.util.Log
+import android.widget.Toast
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.projet_4a_esiea.R
+import com.example.projet_4a_esiea.domain.entity.User
 import com.example.projet_4a_esiea.domain.usecase.CreateUserUseCase
 import com.example.projet_4a_esiea.domain.usecase.GetUserUseCase
 import kotlinx.coroutines.Dispatchers
@@ -33,6 +31,19 @@ class MainViewModel(
             withContext(Dispatchers.Main){
                 loginLiveData.value = loginStatusSealed
             }
+        }
+    }
+
+    fun onClickedCreateAccount(
+        email: String,
+        password: String,
+        confirm_password: String
+    ) {
+       viewModelScope.launch(Dispatchers.IO) {
+            createUserUseCase.invoke(User(email))
+            val user1 = getUserUseCase.invoke(email)
+            Log.d("DEBUG", email);
+
         }
     }
 }

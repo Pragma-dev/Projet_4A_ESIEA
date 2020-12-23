@@ -6,9 +6,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import com.example.projet_4a_esiea.R
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import kotlinx.android.synthetic.main.activity_create_account.*
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.activity_main.login_button
+import kotlinx.android.synthetic.main.activity_main.new_create_account
 import kotlinx.android.synthetic.main.activity_main.login_edit
 import kotlinx.android.synthetic.main.activity_main.password_edit
 import org.koin.android.ext.android.inject
@@ -26,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         mainViewModel.loginLiveData.observe(this, Observer {
             when(it){
                 is LoginSuccess -> {
-                    //TODO
+                   //TODO
                 }
                 LoginError -> {
                     MaterialAlertDialogBuilder(this)
@@ -39,7 +38,7 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         })
-        login_button.setOnClickListener{
+        new_create_account.setOnClickListener{
             mainViewModel.onClickedLogin(login_edit.text.toString().trim(), password_edit.text.toString())
         }
 

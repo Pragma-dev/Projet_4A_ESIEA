@@ -37,7 +37,7 @@
         app:layout_constraintTop_toBottomOf="@+id/email_input_layout"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/login_button">
+        app:layout_constraintBottom_toTopOf="@+id/new_create_account">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/password_edit"
@@ -48,7 +48,7 @@
 
     </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/login_button"
+        android:id="@+id/new_create_account"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -68,7 +68,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/login_button"
+        app:layout_constraintTop_toBottomOf="@+id/new_create_account"
         android:text="Create Account"
         />
 
