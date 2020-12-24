@@ -12,19 +12,20 @@
         android:layout_height="wrap_content"
         android:text="Please enter your email and password"
         android:gravity="center"
-        app:layout_constraintBottom_toTopOf="@+id/email_input_layout"
+        app:layout_constraintBottom_toTopOf="@+id/create_email_input_layout"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="10dp" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/email_input_layout"
+        android:id="@+id/create_email_input_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Email"
+        app:errorEnabled="true"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/password_input_layout">
+        app:layout_constraintBottom_toTopOf="@+id/create_password_input_layout">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/email_edit"
@@ -35,11 +36,11 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/password_input_layout"
+        android:id="@+id/create_password_input_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"
-        app:layout_constraintTop_toBottomOf="@+id/email_input_layout"
+        app:layout_constraintTop_toBottomOf="@+id/create_email_input_layout"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/create_account">
@@ -59,7 +60,7 @@
         android:layout_height="wrap_content"
         android:hint="Confirm password"
         android:layout_marginTop="10dp"
-        app:layout_constraintTop_toBottomOf="@+id/password_input_layout"
+        app:layout_constraintTop_toBottomOf="@+id/create_password_input_layout"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/create_account">
@@ -85,7 +86,7 @@
         app:layout_constraintLeft_toLeftOf="@+id/create_account_button"
         app:layout_constraintRight_toRightOf="@+id/create_account_button"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password_input_layout" />
+        app:layout_constraintTop_toBottomOf="@+id/create_password_input_layout" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

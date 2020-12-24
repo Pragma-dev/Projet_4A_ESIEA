@@ -6,7 +6,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import com.example.projet_4a_esiea.R
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
+import kotlinx.android.synthetic.main.activity_create_account.*
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_main.email_input_layout
 import kotlinx.android.synthetic.main.activity_main.new_create_account
 import kotlinx.android.synthetic.main.activity_main.login_edit
 import kotlinx.android.synthetic.main.activity_main.password_edit
@@ -34,13 +36,9 @@ class MainActivity : AppCompatActivity() {
                         .show()
                 }
                 LoginError -> {
-                    MaterialAlertDialogBuilder(this)
-                        .setTitle("Error")
-                        .setMessage("Unknown account")
-                        .setPositiveButton("Ok"){ dialog, which ->
-                            dialog.dismiss()
-                        }
-                        .show()
+                    email_input_layout.error = " "
+                    password_input_layout.error = "Email or password is wrong, please try again or create an account"
+                    password_edit.text?.clear()
                 }
             }
         })
