@@ -5,15 +5,15 @@ import com.google.gson.annotations.SerializedName
 
 data class Flags(
     @SerializedName("explicit")
-    val explicit: Boolean?,
+    val explicit: Boolean,
     @SerializedName("nsfw")
-    val nsfw: Boolean?,
+    val nsfw: Boolean,
     @SerializedName("political")
-    val political: Boolean?,
+    val political: Boolean,
     @SerializedName("racist")
-    val racist: Boolean?,
+    val racist: Boolean,
     @SerializedName("religious")
-    val religious: Boolean?,
+    val religious: Boolean,
     @SerializedName("sexist")
-    val sexist: Boolean?
+    val sexist: Boolean
 )

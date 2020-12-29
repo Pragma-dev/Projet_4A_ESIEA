@@ -1,6 +1,5 @@
 package com.example.projet_4a_esiea.presentation.main
 
-import android.content.ClipData
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -11,7 +10,7 @@ import com.example.projet_4a_esiea.data.local.models.Joke
 import kotlinx.android.synthetic.main.row_layout.view.*
 
 
-class ListAdapter(private val List: List<Joke>) : RecyclerView.Adapter<ListAdapter.ViewHolder>() {
+class ListAdapter(private val List: MutableList<Joke>) : RecyclerView.Adapter<ListAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
          val itemView = LayoutInflater.from(parent.context).inflate(R.layout.row_layout,parent, false)
@@ -19,8 +18,19 @@ class ListAdapter(private val List: List<Joke>) : RecyclerView.Adapter<ListAdapt
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        val currentItem = List[position]
-        holder.textView1.text = currentItem.joke
+        val data = List[position]
+        val jokeType = holder.itemView.title
+        val jokeLine1 = holder.itemView.line1
+        val jokeLine2 = holder.itemView.line2
+
+        jokeType.text = data.category
+        if(data.joke == null){
+            jokeLine1.text = data.setup
+            jokeLine2.text = data.delivery
+        }else{
+            jokeLine1.text = data.joke
+
+        }
     }
 
     override fun getItemCount() = List.size

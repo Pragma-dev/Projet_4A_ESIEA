@@ -3,11 +3,11 @@ package com.example.projet_4a_esiea.data.local.models
 
 import com.google.gson.annotations.SerializedName
 
-data class RestJokesResponse(
+data class RestJokeResponse(
     @SerializedName("amount")
-    val amount: Int?,
+    val amount: Int,
     @SerializedName("error")
-    val error: Boolean?,
+    val error: Boolean,
     @SerializedName("jokes")
-    val jokes: List<Joke>?
+    val jokes: List<Joke>
 )
