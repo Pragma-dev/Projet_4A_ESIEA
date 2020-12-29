@@ -17,12 +17,17 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class ApiCallActivity : AppCompatActivity() {
 
+
     private val dataList: MutableList<Joke> = mutableListOf()
     private lateinit var myAdapter: ListAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_api_call)
+        val actionbar = supportActionBar
+        actionbar!!.title = "Jokapp"
+
+        actionbar.setDisplayHomeAsUpEnabled(true)
 
         //setup adapter
 
@@ -54,6 +59,11 @@ class ApiCallActivity : AppCompatActivity() {
             this.startActivity(intent)
         }
 
+    }
+
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return true
     }
 
 
