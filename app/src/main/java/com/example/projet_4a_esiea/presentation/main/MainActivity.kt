@@ -27,13 +27,16 @@ class MainActivity : AppCompatActivity() {
         mainViewModel.loginLiveData.observe(this, Observer {
             when(it){
                 is LoginSuccess -> {
-                    MaterialAlertDialogBuilder(this)
+                    val intent = Intent(this, ApiCallActivity::class.java)
+                    this.startActivity(intent)
+
+                    /*MaterialAlertDialogBuilder(this)
                         .setTitle("CONNECTED")
                         .setMessage("GGGGGGG")
                         .setPositiveButton("Ok"){ dialog, which ->
                             dialog.dismiss()
                         }
-                        .show()
+                        .show()*/
                 }
                 LoginError -> {
                     email_input_layout.error = " "

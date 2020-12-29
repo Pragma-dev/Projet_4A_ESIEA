@@ -23,6 +23,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
 }
 
 dependencies {
@@ -64,7 +65,13 @@ dependencies {
 
     testImplementation "io.mockk:mockk:1.10.2"
 
+    // recyclar view
 
+    implementation "androidx.recyclerview:recyclerview:1.1.0"
+
+    // retrofit
+    implementation 'com.squareup.retrofit2:converter-gson:2.6.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.6.0'
 
 
     testImplementation 'junit:junit:4.12'
@@ -72,3 +79,4 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
 }
+
