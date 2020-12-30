@@ -45,5 +45,7 @@ L'objectif de l'application est de générer des blagues aléatoirement à parti
  
   ### Icone de l'application
   
- 
+  - Icone et nom de l'application 
+  
+ ![6](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/9.png)
 
