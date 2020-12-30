@@ -25,31 +25,33 @@ L'objectif de l'application est de générer des blagues aléatoirement à parti
   
 ## Fonctionnalités
   
-  ### Ecran principal
+  ### Ecran de login
   
-  ![Ecran principal](https://github.com/Pragma-dev/Project_ESIEA/blob/master/images_readme/Principal.png)
+  - Affichage d'un message d'erreur si les champs de login sont vides ou incorrects
+  
+  ![Ecran login](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/1.png) ![Ecran login](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/2.png)
 
   ### Fonction de recherche
   
   - Barre de recherche
   
-  ![Barre de recherche](https://github.com/Pragma-dev/Project_ESIEA/blob/master/images_readme/Recherche.png)
+  ![Barre de recherche](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/2.png)
  
   - Recherche par pays
   
-  ![Recherche pays](https://github.com/Pragma-dev/Project_ESIEA/blob/master/images_readme/Name.png)
+  ![Recherche pays](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/3.png)
   
   - Recherche par pattern
   
-  ![Recherche pattern](https://github.com/Pragma-dev/Project_ESIEA/blob/master/images_readme/pattern.png)
+  ![Recherche pattern](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/4.png)
   
   ### Mise à jour des données en fonction de la connexion internet (Appel de l'API si le téléphone est connecté à internet, sinon on récupère le cache)
   
-  ![Internet On](https://github.com/Pragma-dev/Project_ESIEA/blob/master/images_readme/InternetOn.png) ![Internet Off](https://github.com/Pragma-dev/Project_ESIEA/blob/master/images_readme/InternetOff.png)
+  ![Internet On](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/5.png) ![Internet Off](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/6.png)
   
   ### Affichage des statistiques d'un pays après avoir cliqué dessus + bouton retour sur l'activité principal
 
-  ![Ecran1](https://github.com/Pragma-dev/Project_ESIEA/blob/master/images_readme/Ecran1.png) ![Ecran2](https://github.com/Pragma-dev/Project_ESIEA/blob/master/images_readme/Ecran2.png)
+  ![Ecran1](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/7.png) ![Ecran2](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/8.png)
   
  
   ### Icone de l'application sur Samsung Galaxy S7 Edge
