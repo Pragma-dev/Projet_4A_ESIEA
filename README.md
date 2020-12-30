@@ -8,7 +8,7 @@ L'objectif de l'application est de générer des blagues aléatoirement à parti
 
 * Ecran 1 : Page de connexion
 * Ecran 2 : Page de création de compte
-* Ecran 2 : Page d'affichage d'une liste avec RecyclarView généré à partir d'une API
+* Ecran 3 : Page d'affichage d'une liste avec RecyclarView généré à partir d'une API
 * Appel WebService à une API Rest : https://v2.jokeapi.dev
 * Stockage de données sur une base de donnée en local (ROOM)
 * Fonctions supplémentaires : 
