@@ -41,7 +41,7 @@ L'objectif de l'application est de générer des blagues aléatoirement à parti
   
   - Après la création de compte, l'utilisateur est redirigé vers la page de connexion et lorsqu'il est connecté il a accès à l'affichage de la liste, il peut ensuite cliquer sur le bouton pour générer 10 nouvelles blagues aléatoirement
   
-  ![6](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/6.png) ![8](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/8.png) ![6](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/7.png)
+  ![6](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/6.png) ![8](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/7.png) ![6](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/8.png)
  
   ### Icone de l'application
   
