@@ -27,34 +27,39 @@ L'objectif de l'application est de générer des blagues aléatoirement à parti
   
   ### Ecran de login
   
+  - Ecran de login
+  
+  ![1](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/1.png) 
+  
   - Affichage d'un message d'erreur si les champs de login sont vides ou incorrects
   
-  ![Ecran login](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/1.png) ![Ecran login](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/2.png)
+  ![2](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/2.png)
 
-  ### Fonction de recherche
+  ### Ecran de création de compte
   
-  - Barre de recherche
+  - Ecran de création de compte
   
-  ![Barre de recherche](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/2.png)
+  ![3](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/3.png)
  
-  - Recherche par pays
+  - Affichage d'un message d'erreur si l'adresse email est invalide
   
-  ![Recherche pays](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/3.png)
+  ![4](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/4.png)
   
-  - Recherche par pattern
+  - Affichage d'un message d'erreur si les deux mots de passe ne correspondent pas
   
-  ![Recherche pattern](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/4.png)
+  ![5](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/5.png)
   
-  ### Mise à jour des données en fonction de la connexion internet (Appel de l'API si le téléphone est connecté à internet, sinon on récupère le cache)
+  ### Ecran affichage liste via call API
   
-  ![Internet On](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/5.png) ![Internet Off](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/6.png)
+  - Après la création de compte, l'utilisateur est redirigé vers la page de connexion et lorsqu'il est connecté il a accès à l'affichage de la liste
   
-  ### Affichage des statistiques d'un pays après avoir cliqué dessus + bouton retour sur l'activité principal
-
-  ![Ecran1](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/7.png) ![Ecran2](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/8.png)
+  ![6](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/6.png) ![8](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/8.png)
+  
+  - L'utilisateur peut cliquer sur le bouton pour générer 10 nouvelles blagues aléatoirement
+  
+  ![6](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/7.png)
+ 
+  ### Icone de l'application
   
  
-  ### Icone de l'application sur Samsung Galaxy S7 Edge
-  
-  ![Icone application](https://github.com/Pragma-dev/Project_ESIEA/blob/master/images_readme/IconeApplication.jpg)
 
