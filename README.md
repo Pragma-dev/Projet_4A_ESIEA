@@ -27,37 +27,21 @@ L'objectif de l'application est de générer des blagues aléatoirement à parti
   
   ### Ecran de login
   
-  - Ecran de login
+  - Ecran de login et affichage d'un message d'erreur si les champs de login sont vides ou incorrects
   
-  ![1](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/1.png) 
-  
-  - Affichage d'un message d'erreur si les champs de login sont vides ou incorrects
-  
-  ![2](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/2.png)
+  ![1](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/1.png) ![2](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/2.png)  
 
   ### Ecran de création de compte
   
-  - Ecran de création de compte
+  - Ecran de création de compte et affichage d'un message d'erreur si l'adresse email est invalide ou si les mots de passe ne correspondent pas
   
-  ![3](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/3.png)
- 
-  - Affichage d'un message d'erreur si l'adresse email est invalide
-  
-  ![4](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/4.png)
-  
-  - Affichage d'un message d'erreur si les deux mots de passe ne correspondent pas
-  
-  ![5](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/5.png)
-  
+  ![3](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/3.png) ![4](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/4.png) ![5](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/5.png)
+     
   ### Ecran affichage liste via call API
   
-  - Après la création de compte, l'utilisateur est redirigé vers la page de connexion et lorsqu'il est connecté il a accès à l'affichage de la liste
+  - Après la création de compte, l'utilisateur est redirigé vers la page de connexion et lorsqu'il est connecté il a accès à l'affichage de la liste, il peut ensuite cliquer sur le bouton pour générer 10 nouvelles blagues aléatoirement
   
-  ![6](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/6.png) ![8](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/8.png)
-  
-  - L'utilisateur peut cliquer sur le bouton pour générer 10 nouvelles blagues aléatoirement
-  
-  ![6](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/7.png)
+  ![6](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/6.png) ![8](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/8.png) ![6](https://github.com/Pragma-dev/Projet_4A_ESIEA/blob/master/images_readme/7.png)
  
   ### Icone de l'application
   
