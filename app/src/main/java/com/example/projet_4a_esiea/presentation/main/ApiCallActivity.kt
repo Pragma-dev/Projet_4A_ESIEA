@@ -1,8 +1,7 @@
 package com.example.projet_4a_esiea.presentation.main
 
-import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.OrientationHelper
@@ -13,7 +12,6 @@ import com.example.projet_4a_esiea.R
 import com.example.projet_4a_esiea.data.local.models.Joke
 import com.example.projet_4a_esiea.data.local.models.RestJokeResponse
 import kotlinx.android.synthetic.main.activity_api_call.*
-import kotlinx.android.synthetic.main.activity_main.*
 
 class ApiCallActivity : AppCompatActivity() {
 
@@ -55,8 +53,9 @@ class ApiCallActivity : AppCompatActivity() {
             })
 
         randomJokes.setOnClickListener {
-            val intent = Intent(this, ApiCallActivity::class.java)
-            this.startActivity(intent)
+            val intent = intent
+            finish()
+            startActivity(intent)
         }
 
     }
